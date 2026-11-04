@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/tvlokapp/tvlok/discussions
+    about: Questions, setups and tips
+  - name: Quick help on Discord
+    url: https://discord.gg/UNHfkfftjX
+    about: Talk to other people using TVLok
+  - name: How-to guides
+    url: https://tvlok.com/how-to
+    about: Step-by-step guides

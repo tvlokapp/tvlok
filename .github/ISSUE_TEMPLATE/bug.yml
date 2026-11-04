@@ -1,0 +1,46 @@
+name: Report a bug
+description: Something in TVLok isn't working
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for telling us. This page is public, so please don't include playlist links, logins or provider names."
+  - type: dropdown
+    id: device
+    attributes:
+      label: Where does it happen?
+      options:
+        - Android TV or Google TV
+        - Fire TV
+        - Android phone or tablet
+        - iPhone or iPad
+        - Mac
+        - Windows
+        - tvlok.com
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: You'll find it in Settings. Add your device name if you can.
+      placeholder: "1.0.200, NVIDIA Shield"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      placeholder: "The guide shows the wrong show on one channel"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What did you do right before it?
+  - type: dropdown
+    id: often
+    attributes:
+      label: How often?
+      options:
+        - Every time
+        - Sometimes
+        - Once so far

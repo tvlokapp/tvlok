@@ -1,0 +1,25 @@
+name: Share an idea
+description: Something you'd like TVLok to do
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to do?
+      placeholder: "Keep my channel for every game of my team"
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where would you use it?
+      multiple: true
+      options:
+        - TV
+        - Phone or tablet
+        - Computer
+        - tvlok.com
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do it today?

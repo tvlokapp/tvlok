@@ -28,7 +28,7 @@ TVLok is an IPTV player for Android TV, Google TV, Fire TV and Firestick, Androi
 - **Your own media too.** Plex, Jellyfin and Emby, plus Trakt if you use it.
 - **Built for the whole house.** Profiles, kids' rules with a daily limit and bedtime, and family members with their own login.
 
-**Runs on** Android TV and Google TV, Fire TV, Android phones and tablets, Mac and Windows. iPhone and iPad are in public beta on TestFlight.
+**Runs on** Android TV and Google TV, Fire TV, Android phones and tablets, iPhone and iPad, Mac and Windows.
 
 ## Questions people ask
 
